@@ -8,15 +8,15 @@ final class CyberClick
 {
     public function __invoke(int $number)
     {
-        if($this->isDivisibleByThree($number) && $this->isDivisibleByFive($number)){
+        if ($this->isDivisibleByThree($number) && $this->isDivisibleByFive($number)) {
             return 'cyberclick';
         }
 
-        if($this->isDivisibleByThree($number)){
+        if ($this->isDivisibleByThree($number)) {
             return 'cyber';
         }
 
-        if($this->isDivisibleByFive($number)){
+        if ($this->isDivisibleByFive($number)) {
             return 'click';
         }
 

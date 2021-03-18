@@ -9,7 +9,7 @@ final class NumbersGenerator
     public function generateNumbers(int $first, int $last): array
     {
         $numbers = [];
-        for($number=$first; $number <= $last; $number++) {
+        for ($number = $first; $number <= $last; $number++) {
             $numbers[] = $number;
         }
 
