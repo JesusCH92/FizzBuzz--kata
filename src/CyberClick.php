@@ -25,11 +25,11 @@ final class CyberClick
 
     private function isDivisibleByThree(int $number): bool
     {
-        return $number % 3 == 0;
+        return $number % 3 === 0;
     }
 
     private function isDivisibleByFive(int $number): bool
     {
-        return $number % 5 == 0;
+        return $number % 5 === 0;
     }
 }
