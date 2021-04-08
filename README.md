@@ -2,9 +2,9 @@
 
 El objetivo de este ejercicio, es imprimir por pantalla una lista ordenada de números del 1 al 100 sustituyendo:
 
-* Los múltiplos de 3 por la cadena "cyber".
-* Los múltiplos de 5 por la cadena "click".
-* Y los múltiplos de 3 y 5 por "cyberclick".
+* Los múltiplos de 3 por la cadena "Fizz".
+* Los múltiplos de 5 por la cadena "Buzz".
+* Y los múltiplos de 3 y 5 por "FizzBuzz".
 
 Todo esto se realizará trabajando con una filosofía de clean code (Arquitectura hexagonal, Clausulas de guarda, Principios SOLID, KISS).
 
