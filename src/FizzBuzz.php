@@ -4,20 +4,20 @@ declare(strict_types=1);
 
 namespace App;
 
-final class CyberClick
+final class FizzBuzz
 {
     public function __invoke(int $number)
     {
         if ($this->isDivisibleByThree($number) && $this->isDivisibleByFive($number)) {
-            return 'cyberclick';
+            return 'FizzBuzz';
         }
 
         if ($this->isDivisibleByThree($number)) {
-            return 'cyber';
+            return 'Fizz';
         }
 
         if ($this->isDivisibleByFive($number)) {
-            return 'click';
+            return 'Buzz';
         }
 
         return $number;
